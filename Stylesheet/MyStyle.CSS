@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Precious;
+    src: url(../Fonts/Precious.ttf)
+}
+@font-face{
+    font-family: CaviarDreams;
+    src: url(../Fonts/CaviarDreams.ttf)
+}
+#introduction{
+    font-family: Precious;
+    font-size: 60px;
+    padding-top: 100px;
+    color: white;
+
+}
+#name{
+    font-family: Precious;
+    font-size: 60px;
+    color: white;
+}
+#student{
+    font-family: CaviarDreams;
+    font-size: 40px;
+    color: white;
+}
+.spacing{
+    padding: 120px;
+}
+#pfp{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: black solid 3px;
+}
+#greetings, #message{
+    padding-top: 10px;
+    font-family: CaviarDreams;
+    line-height: 50px;
+} 
+#greetings{ 
+    font-size: 50px;
+}
+#message{
+    font-size: 40px;
+}
+.middle-spacing{
+    padding: 50px;
+}
+.middle-middle-spacing{
+    padding: 30px;
+}
+.middle-content{
+    font-family: CaviarDreams;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    color: gainsboro;
+}
+.bottom-spacing{
+    padding: 30px;
+}
+a{
+    padding: 10px;
+    cursor:pointer;
+}
+.footer{
+    background: black;
+    font-family: CaviarDreams;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.Button{
+    size: 75px;
+    background-color:rgb(160, 27, 27);
+    color: black;
+    
+}
+.greetings{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.body-pic{
+    background: url(../Pics/cover.jpg);
+    background-size: cover;
+    text-align: center;
+}
+span{
+    display: block;
+    line-height: 50px;
+}
+.middle-content h1, h2{
+    font-size: 50px;
+}
+.middle-content img{
+    width: 100px;
+    height: 100px;
+}
+.middle-content span{
+    font-size: 30px;
+}
+footer img{
+    width: 60px;
+    height: 60px;
+}
+body h4{
+    font-size: 70px;
+}
+#wind, #telescope, #phone{
+    position: relative;
+    right: 200px;
+    top: 85px;
+}
+.made-you-look, .made-you-look-again, .made-you-look-again-again, .made-you-look-again-again-again, .greetings-spacing {
+    padding: 30px;
+}
+/*this codes are actually from a tutorial, not mine, but, welp, i want to make it look cool ^^*/
+button{
+    position: relative;
+    left: 100px;
+    top: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left,rgba(228, 5, 5, 0.568),rgba(202, 97, 11, 0.452));
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #458a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: .6s;
+    overflow: hidden;
+}
+button:hover{
+    background: #eeea06;
+    cursor: pointer;
+}
+button:hover::before{
+    transform: translate(150px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+button:hover::after{
+    transform: translate(150px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
